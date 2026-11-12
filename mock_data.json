@@ -1,0 +1,693 @@
+{
+  "sources": [
+    {
+      "id": 1,
+      "name": "Acme Cloud Corp",
+      "kind": "job",
+      "color": "#0066ff",
+      "archived": 0,
+      "is_tax_withheld": 1,
+      "tax_reserve_bps": 0
+    },
+    {
+      "id": 2,
+      "name": "Freelance Consulting",
+      "kind": "job",
+      "color": "#8b5cf6",
+      "archived": 0,
+      "is_tax_withheld": 0,
+      "tax_reserve_bps": 2500
+    },
+    {
+      "id": 3,
+      "name": "CRA & Benefits",
+      "kind": "government",
+      "color": "#10b981",
+      "archived": 0,
+      "is_tax_withheld": 1,
+      "tax_reserve_bps": 0
+    },
+    {
+      "id": 4,
+      "name": "Side Projects & Dividends",
+      "kind": "other",
+      "color": "#f59e0b",
+      "archived": 0,
+      "is_tax_withheld": 0,
+      "tax_reserve_bps": 1500
+    },
+    {
+      "id": 5,
+      "name": "Northstar Systems (Intern)",
+      "kind": "job",
+      "color": "#64748b",
+      "archived": 1,
+      "is_tax_withheld": 1,
+      "tax_reserve_bps": 0
+    }
+  ],
+  "paycheques": [
+    {
+      "id": 1,
+      "source_id": 5,
+      "paid_on": "2025-05-16",
+      "amount_cents": 192000,
+      "gross_cents": 240000,
+      "tax_cents": 33600,
+      "deductions_cents": 14400,
+      "hours": 80,
+      "note": "Summer co-op bi-weekly #1"
+    },
+    {
+      "id": 2,
+      "source_id": 5,
+      "paid_on": "2025-05-30",
+      "amount_cents": 192000,
+      "gross_cents": 240000,
+      "tax_cents": 33600,
+      "deductions_cents": 14400,
+      "hours": 80,
+      "note": "Summer co-op bi-weekly #2"
+    },
+    {
+      "id": 3,
+      "source_id": 5,
+      "paid_on": "2025-06-13",
+      "amount_cents": 192000,
+      "gross_cents": 240000,
+      "tax_cents": 33600,
+      "deductions_cents": 14400,
+      "hours": 80,
+      "note": "Summer co-op bi-weekly #3"
+    },
+    {
+      "id": 4,
+      "source_id": 5,
+      "paid_on": "2025-06-27",
+      "amount_cents": 192000,
+      "gross_cents": 240000,
+      "tax_cents": 33600,
+      "deductions_cents": 14400,
+      "hours": 80,
+      "note": "Summer co-op bi-weekly #4"
+    },
+    {
+      "id": 5,
+      "source_id": 5,
+      "paid_on": "2025-07-11",
+      "amount_cents": 192000,
+      "gross_cents": 240000,
+      "tax_cents": 33600,
+      "deductions_cents": 14400,
+      "hours": 80,
+      "note": "Summer co-op bi-weekly #5"
+    },
+    {
+      "id": 6,
+      "source_id": 5,
+      "paid_on": "2025-07-25",
+      "amount_cents": 192000,
+      "gross_cents": 240000,
+      "tax_cents": 33600,
+      "deductions_cents": 14400,
+      "hours": 80,
+      "note": "Summer co-op bi-weekly #6"
+    },
+    {
+      "id": 7,
+      "source_id": 5,
+      "paid_on": "2025-08-08",
+      "amount_cents": 192000,
+      "gross_cents": 240000,
+      "tax_cents": 33600,
+      "deductions_cents": 14400,
+      "hours": 80,
+      "note": "Summer co-op bi-weekly #7"
+    },
+    {
+      "id": 8,
+      "source_id": 5,
+      "paid_on": "2025-08-22",
+      "amount_cents": 204000,
+      "gross_cents": 255000,
+      "tax_cents": 35700,
+      "deductions_cents": 15300,
+      "hours": 80,
+      "note": "Final co-op cheque + vacation payout"
+    },
+    {
+      "id": 9,
+      "source_id": 1,
+      "paid_on": "2025-09-12",
+      "amount_cents": 262500,
+      "gross_cents": 350000,
+      "tax_cents": 64500,
+      "deductions_cents": 23000,
+      "hours": 80,
+      "note": "Full-time onboarding period"
+    },
+    {
+      "id": 10,
+      "source_id": 1,
+      "paid_on": "2025-09-26",
+      "amount_cents": 262500,
+      "gross_cents": 350000,
+      "tax_cents": 64500,
+      "deductions_cents": 23000,
+      "hours": 80,
+      "note": "Regular bi-weekly salary"
+    },
+    {
+      "id": 11,
+      "source_id": 1,
+      "paid_on": "2025-10-10",
+      "amount_cents": 262500,
+      "gross_cents": 350000,
+      "tax_cents": 64500,
+      "deductions_cents": 23000,
+      "hours": 80,
+      "note": "Regular bi-weekly salary"
+    },
+    {
+      "id": 12,
+      "source_id": 2,
+      "paid_on": "2025-10-18",
+      "amount_cents": 120000,
+      "gross_cents": null,
+      "tax_cents": null,
+      "deductions_cents": null,
+      "hours": 15,
+      "note": "E-commerce API audit"
+    },
+    {
+      "id": 13,
+      "source_id": 1,
+      "paid_on": "2025-10-24",
+      "amount_cents": 262500,
+      "gross_cents": 350000,
+      "tax_cents": 64500,
+      "deductions_cents": 23000,
+      "hours": 80,
+      "note": "Regular bi-weekly salary"
+    },
+    {
+      "id": 14,
+      "source_id": 1,
+      "paid_on": "2025-11-07",
+      "amount_cents": 262500,
+      "gross_cents": 350000,
+      "tax_cents": 64500,
+      "deductions_cents": 23000,
+      "hours": 80,
+      "note": "Regular bi-weekly salary"
+    },
+    {
+      "id": 15,
+      "source_id": 1,
+      "paid_on": "2025-11-21",
+      "amount_cents": 262500,
+      "gross_cents": 350000,
+      "tax_cents": 64500,
+      "deductions_cents": 23000,
+      "hours": 80,
+      "note": "Regular bi-weekly salary"
+    },
+    {
+      "id": 16,
+      "source_id": 1,
+      "paid_on": "2025-12-05",
+      "amount_cents": 262500,
+      "gross_cents": 350000,
+      "tax_cents": 64500,
+      "deductions_cents": 23000,
+      "hours": 80,
+      "note": "Regular bi-weekly salary"
+    },
+    {
+      "id": 17,
+      "source_id": 2,
+      "paid_on": "2025-12-14",
+      "amount_cents": 165000,
+      "gross_cents": null,
+      "tax_cents": null,
+      "deductions_cents": null,
+      "hours": 20,
+      "note": "Design system migration"
+    },
+    {
+      "id": 18,
+      "source_id": 1,
+      "paid_on": "2025-12-19",
+      "amount_cents": 345000,
+      "gross_cents": 460000,
+      "tax_cents": 89000,
+      "deductions_cents": 26000,
+      "hours": 80,
+      "note": "Year-end salary + Q4 performance bonus"
+    },
+    {
+      "id": 19,
+      "source_id": 1,
+      "paid_on": "2026-01-02",
+      "amount_cents": 271500,
+      "gross_cents": 365000,
+      "tax_cents": 69000,
+      "deductions_cents": 24500,
+      "hours": 80,
+      "note": "2026 merit adjustment"
+    },
+    {
+      "id": 20,
+      "source_id": 3,
+      "paid_on": "2026-01-05",
+      "amount_cents": 13500,
+      "gross_cents": null,
+      "tax_cents": null,
+      "deductions_cents": null,
+      "hours": null,
+      "note": "Q1 GST/HST credit"
+    },
+    {
+      "id": 21,
+      "source_id": 1,
+      "paid_on": "2026-01-16",
+      "amount_cents": 271500,
+      "gross_cents": 365000,
+      "tax_cents": 69000,
+      "deductions_cents": 24500,
+      "hours": 80,
+      "note": "Regular bi-weekly salary"
+    },
+    {
+      "id": 22,
+      "source_id": 1,
+      "paid_on": "2026-01-30",
+      "amount_cents": 271500,
+      "gross_cents": 365000,
+      "tax_cents": 69000,
+      "deductions_cents": 24500,
+      "hours": 80,
+      "note": "Regular bi-weekly salary"
+    },
+    {
+      "id": 23,
+      "source_id": 2,
+      "paid_on": "2026-02-08",
+      "amount_cents": 180000,
+      "gross_cents": null,
+      "tax_cents": null,
+      "deductions_cents": null,
+      "hours": 22,
+      "note": "Next.js dashboard prototype"
+    },
+    {
+      "id": 24,
+      "source_id": 1,
+      "paid_on": "2026-02-13",
+      "amount_cents": 271500,
+      "gross_cents": 365000,
+      "tax_cents": 69000,
+      "deductions_cents": 24500,
+      "hours": 80,
+      "note": "Regular bi-weekly salary"
+    },
+    {
+      "id": 25,
+      "source_id": 1,
+      "paid_on": "2026-02-27",
+      "amount_cents": 271500,
+      "gross_cents": 365000,
+      "tax_cents": 69000,
+      "deductions_cents": 24500,
+      "hours": 80,
+      "note": "Regular bi-weekly salary"
+    },
+    {
+      "id": 26,
+      "source_id": 4,
+      "paid_on": "2026-03-04",
+      "amount_cents": 42500,
+      "gross_cents": null,
+      "tax_cents": null,
+      "deductions_cents": null,
+      "hours": null,
+      "note": "UI kit & template royalties"
+    },
+    {
+      "id": 27,
+      "source_id": 1,
+      "paid_on": "2026-03-13",
+      "amount_cents": 271500,
+      "gross_cents": 365000,
+      "tax_cents": 69000,
+      "deductions_cents": 24500,
+      "hours": 80,
+      "note": "Regular bi-weekly salary"
+    },
+    {
+      "id": 28,
+      "source_id": 1,
+      "paid_on": "2026-03-27",
+      "amount_cents": 271500,
+      "gross_cents": 365000,
+      "tax_cents": 69000,
+      "deductions_cents": 24500,
+      "hours": 80,
+      "note": "Regular bi-weekly salary"
+    },
+    {
+      "id": 29,
+      "source_id": 3,
+      "paid_on": "2026-04-05",
+      "amount_cents": 13500,
+      "gross_cents": null,
+      "tax_cents": null,
+      "deductions_cents": null,
+      "hours": null,
+      "note": "Q2 GST/HST credit"
+    },
+    {
+      "id": 30,
+      "source_id": 1,
+      "paid_on": "2026-04-10",
+      "amount_cents": 271500,
+      "gross_cents": 365000,
+      "tax_cents": 69000,
+      "deductions_cents": 24500,
+      "hours": 80,
+      "note": "Regular bi-weekly salary"
+    },
+    {
+      "id": 31,
+      "source_id": 3,
+      "paid_on": "2026-04-20",
+      "amount_cents": 142000,
+      "gross_cents": null,
+      "tax_cents": null,
+      "deductions_cents": null,
+      "hours": null,
+      "note": "2025 income tax refund"
+    },
+    {
+      "id": 32,
+      "source_id": 1,
+      "paid_on": "2026-04-24",
+      "amount_cents": 271500,
+      "gross_cents": 365000,
+      "tax_cents": 69000,
+      "deductions_cents": 24500,
+      "hours": 80,
+      "note": "Regular bi-weekly salary"
+    },
+    {
+      "id": 33,
+      "source_id": 2,
+      "paid_on": "2026-05-02",
+      "amount_cents": 210000,
+      "gross_cents": null,
+      "tax_cents": null,
+      "deductions_cents": null,
+      "hours": 24,
+      "note": "Analytics pipeline integration"
+    },
+    {
+      "id": 34,
+      "source_id": 1,
+      "paid_on": "2026-05-08",
+      "amount_cents": 271500,
+      "gross_cents": 365000,
+      "tax_cents": 69000,
+      "deductions_cents": 24500,
+      "hours": 80,
+      "note": "Regular bi-weekly salary"
+    },
+    {
+      "id": 35,
+      "source_id": 1,
+      "paid_on": "2026-05-22",
+      "amount_cents": 271500,
+      "gross_cents": 365000,
+      "tax_cents": 69000,
+      "deductions_cents": 24500,
+      "hours": 80,
+      "note": "Regular bi-weekly salary"
+    },
+    {
+      "id": 36,
+      "source_id": 1,
+      "paid_on": "2026-06-05",
+      "amount_cents": 271500,
+      "gross_cents": 365000,
+      "tax_cents": 69000,
+      "deductions_cents": 24500,
+      "hours": 80,
+      "note": "Regular bi-weekly salary"
+    },
+    {
+      "id": 37,
+      "source_id": 4,
+      "paid_on": "2026-06-15",
+      "amount_cents": 38000,
+      "gross_cents": null,
+      "tax_cents": null,
+      "deductions_cents": null,
+      "hours": null,
+      "note": "Quarterly ETF dividends"
+    },
+    {
+      "id": 38,
+      "source_id": 1,
+      "paid_on": "2026-06-19",
+      "amount_cents": 318000,
+      "gross_cents": 430000,
+      "tax_cents": 85000,
+      "deductions_cents": 27000,
+      "hours": 80,
+      "note": "Bi-weekly salary + mid-year bonus"
+    },
+    {
+      "id": 39,
+      "source_id": 1,
+      "paid_on": "2026-07-03",
+      "amount_cents": 271500,
+      "gross_cents": 365000,
+      "tax_cents": 69000,
+      "deductions_cents": 24500,
+      "hours": 80,
+      "note": "Regular bi-weekly salary"
+    },
+    {
+      "id": 40,
+      "source_id": 3,
+      "paid_on": "2026-07-06",
+      "amount_cents": 13500,
+      "gross_cents": null,
+      "tax_cents": null,
+      "deductions_cents": null,
+      "hours": null,
+      "note": "Q3 GST/HST credit"
+    },
+    {
+      "id": 41,
+      "source_id": 1,
+      "paid_on": "2026-07-17",
+      "amount_cents": 271500,
+      "gross_cents": 365000,
+      "tax_cents": 69000,
+      "deductions_cents": 24500,
+      "hours": 80,
+      "note": "Regular bi-weekly salary"
+    },
+    {
+      "id": 42,
+      "source_id": 2,
+      "paid_on": "2026-07-28",
+      "amount_cents": 195000,
+      "gross_cents": null,
+      "tax_cents": null,
+      "deductions_cents": null,
+      "hours": 22.5,
+      "note": "Mobile app performance tuning"
+    },
+    {
+      "id": 43,
+      "source_id": 1,
+      "paid_on": "2026-07-31",
+      "amount_cents": 271500,
+      "gross_cents": 365000,
+      "tax_cents": 69000,
+      "deductions_cents": 24500,
+      "hours": 80,
+      "note": "Regular bi-weekly salary"
+    },
+    {
+      "id": 44,
+      "source_id": 1,
+      "paid_on": "2026-08-14",
+      "amount_cents": 271500,
+      "gross_cents": 365000,
+      "tax_cents": 69000,
+      "deductions_cents": 24500,
+      "hours": 80,
+      "note": "Regular bi-weekly salary"
+    },
+    {
+      "id": 45,
+      "source_id": 1,
+      "paid_on": "2026-08-28",
+      "amount_cents": 271500,
+      "gross_cents": 365000,
+      "tax_cents": 69000,
+      "deductions_cents": 24500,
+      "hours": 80,
+      "note": "Regular bi-weekly salary"
+    },
+    {
+      "id": 46,
+      "source_id": 1,
+      "paid_on": "2026-09-11",
+      "amount_cents": 271500,
+      "gross_cents": 365000,
+      "tax_cents": 69000,
+      "deductions_cents": 24500,
+      "hours": 80,
+      "note": "Regular bi-weekly salary"
+    },
+    {
+      "id": 47,
+      "source_id": 4,
+      "paid_on": "2026-09-18",
+      "amount_cents": 51000,
+      "gross_cents": null,
+      "tax_cents": null,
+      "deductions_cents": null,
+      "hours": null,
+      "note": "Template sales + dividends"
+    },
+    {
+      "id": 48,
+      "source_id": 1,
+      "paid_on": "2026-09-25",
+      "amount_cents": 271500,
+      "gross_cents": 365000,
+      "tax_cents": 69000,
+      "deductions_cents": 24500,
+      "hours": 80,
+      "note": "Regular bi-weekly salary"
+    },
+    {
+      "id": 49,
+      "source_id": 3,
+      "paid_on": "2026-10-05",
+      "amount_cents": 13500,
+      "gross_cents": null,
+      "tax_cents": null,
+      "deductions_cents": null,
+      "hours": null,
+      "note": "Q4 GST/HST credit"
+    },
+    {
+      "id": 50,
+      "source_id": 1,
+      "paid_on": "2026-10-09",
+      "amount_cents": 271500,
+      "gross_cents": 365000,
+      "tax_cents": 69000,
+      "deductions_cents": 24500,
+      "hours": 80,
+      "note": "Regular bi-weekly salary"
+    },
+    {
+      "id": 51,
+      "source_id": 2,
+      "paid_on": "2026-10-16",
+      "amount_cents": 240000,
+      "gross_cents": null,
+      "tax_cents": null,
+      "deductions_cents": null,
+      "hours": 28,
+      "note": "FastAPI microservice architecture"
+    },
+    {
+      "id": 52,
+      "source_id": 1,
+      "paid_on": "2026-10-23",
+      "amount_cents": 271500,
+      "gross_cents": 365000,
+      "tax_cents": 69000,
+      "deductions_cents": 24500,
+      "hours": 80,
+      "note": "Regular bi-weekly salary"
+    },
+    {
+      "id": 53,
+      "source_id": 1,
+      "paid_on": "2026-11-06",
+      "amount_cents": 284000,
+      "gross_cents": 382000,
+      "tax_cents": 73500,
+      "deductions_cents": 24500,
+      "hours": 84,
+      "note": "Bi-weekly salary + on-call hours"
+    }
+  ],
+  "settings": {
+    "goal_cents": "9500000"
+  },
+  "allocations": [
+    {
+      "id": 1,
+      "name": "Rent & Utilities",
+      "category": "essentials",
+      "weight_bps": 3500,
+      "color": "#0066ff",
+      "sort_order": 1,
+      "active": 1
+    },
+    {
+      "id": 2,
+      "name": "Groceries & Transit",
+      "category": "essentials",
+      "weight_bps": 1500,
+      "color": "#0ea5e9",
+      "sort_order": 2,
+      "active": 1
+    },
+    {
+      "id": 3,
+      "name": "Index ETFs (TFSA/RRSP)",
+      "category": "investments",
+      "weight_bps": 2000,
+      "color": "#10b981",
+      "sort_order": 3,
+      "active": 1
+    },
+    {
+      "id": 4,
+      "name": "Emergency Fund",
+      "category": "savings",
+      "weight_bps": 1500,
+      "color": "#8b5cf6",
+      "sort_order": 4,
+      "active": 1
+    },
+    {
+      "id": 5,
+      "name": "Travel & Dining",
+      "category": "lifestyle",
+      "weight_bps": 1500,
+      "color": "#f59e0b",
+      "sort_order": 5,
+      "active": 1
+    },
+    {
+      "id": 6,
+      "name": "Tech & Gear Upgrade",
+      "category": "lifestyle",
+      "weight_bps": 500,
+      "color": "#ec4899",
+      "sort_order": 6,
+      "active": 0
+    }
+  ]
+}
